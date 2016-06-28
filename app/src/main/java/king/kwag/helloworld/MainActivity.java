@@ -1,5 +1,5 @@
-package king.kwag.helloworld;
-
+﻿package king.kwag.helloworld;
+//아시버ㅏㄹ
 import android.app.Activity;
 //import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
