@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--네임 스페이스-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="king.kwag.helloworld.MainActivity">
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/edit_id"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:textAlignment="center"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="PassWord"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:onClick="onClick"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center_vertical"
+        android:text="Log In"
+        android:background="#FF8fd79f"/>
+</LinearLayout>
